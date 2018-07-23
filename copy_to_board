@@ -1,4 +1,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
+<style>
+.copy{
+    border: none;
+    background-color: #69c7ee !important;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    display:none;
+	}
+.copypara{
+    background: #69c7ee !important;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 3px;	
+}
 
  <button class="btn copy" id="copy">Copy share Link <i class="fa fa-clipboard"></i></button>
 
