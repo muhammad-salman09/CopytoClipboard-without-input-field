@@ -5,7 +5,7 @@
 <script>
 <script>
         var url = "<?=get_site_url().'/giftregistry/?giftregistry_id='.$wid?>";
-        new Clipboard('.copy', {
+        new Clipboard('#copy', {
           text: function() {
               jQuery('.copypara').remove();
               jQuery('#copy').after('<p class="copypara">Registry url copied to Clipboard</p>');
