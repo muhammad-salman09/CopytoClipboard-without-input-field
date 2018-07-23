@@ -19,7 +19,6 @@
  <button class="btn copy" id="copy">Copy share Link <i class="fa fa-clipboard"></i></button>
 
 <script>
-<script>
         var url = "<?=get_site_url().'/giftregistry/?giftregistry_id='.$wid?>";
         new Clipboard('.copy', {
           text: function() {
@@ -32,4 +31,4 @@
           }
         });
 </script>
-</script>
+
